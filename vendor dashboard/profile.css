@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Familjen Grotesk", sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.container{
+  width: 800px;
+  padding:30px;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between ;
+  border: 1px solid black;
+  position: relative;
+  border-radius: 10px;
+}
+
+
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+.verify{
+  width: 80 px;
+  background-color: rgb(181, 176, 176);
+  padding: 3px;
+  opacity: .6;
+  border-radius: 10px;
+}
+
+.info0,.info1,.info2,.info3,.info4,.info5,.info6{
+  display: flex;
+  margin: 10px;
+}
+label {
+  margin-right: 6px;
+}
+.navigators
+ button{
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  height: 40px;
+}
+button:hover{
+  cursor: pointer;
+}
+.buttons{
+  margin-left: 100px;
+  display: flex;
+}
+.profile{
+  display: flex;
+  margin-top: 100px;
+}
+.navigators{
+  display: flex;
+  width: 800px;
+  height: 80px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  align-items: center;
+}
+h4{
+  width: 400px;
+}
+
+
+
+
+
+  
